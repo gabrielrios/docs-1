@@ -24,7 +24,7 @@ When starting the server, Pakyow will try the following handlers in order:
 
 You can run a specific handler by setting the `server.handler` [config option](/docs/config).
 
-> Elsewhere in this documentation, you'll always see pakyow server executed like this:
+> Elsewhere in this documentation, you'll always see pakyow commands executed like this:
 >
 >```
 >bundle exec pakyow server [environment]

@@ -139,7 +139,7 @@ Creates a new migration with provided `name`, automatically prefixed.
 
 ## Presenting Data
 
-Before we can present data we should create some for testing. To keep it easy for this guide, we'll use console. Run `pakyow console` and enter the following commands:
+Before we can present data we should create some for testing. To keep it easy for this guide, we'll use console. Run `bundle exec pakyow console` and enter the following commands:
 
 ```
 irb(main):001:0> User.create(name: 'User 1', body: 'user1@pakyow.org')
